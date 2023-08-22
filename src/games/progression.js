@@ -1,5 +1,5 @@
 import runGame from '../index.js';
-import {getRandomNum} from '../utilities.js';
+import { getRandomNum } from '../utilities.js';
 
 const getArithmeticProgression = () => {
   let num = getRandomNum(0, 50);
@@ -14,7 +14,7 @@ const getArithmeticProgression = () => {
 };
 
 const answerAndQuestion = () => {
-  const progressionArray = getArithmeticProgression() // generate array of nums
+  const progressionArray = getArithmeticProgression(); // generate array of nums
   const index = getRandomNum(0, 10); // found index of random num
 
   const answer = String(progressionArray[index]); // random num selected
