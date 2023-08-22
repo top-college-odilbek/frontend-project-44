@@ -1,4 +1,4 @@
-import runGame from '../index.js';
+import startGame from '../index.js';
 import { getRandomNum } from '../utilities.js';
 
 const getArithmeticProgression = () => {
@@ -23,5 +23,5 @@ const answerAndQuestion = () => {
 };
 
 export default () => {
-  runGame('What number is missing in the progression?', answerAndQuestion);
+  startGame('What number is missing in the progression?', answerAndQuestion);
 };
