@@ -25,3 +25,4 @@ export default (description, questionAndAnswer) => {
   }
   console.log(`Congratulations, ${playerName}!`);
 };
+
